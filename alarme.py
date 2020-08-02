@@ -1,0 +1,6 @@
+hora_str= input("Digite o horário atual:")
+hora_str= int(hora_str)
+alarme_str= input("Digite o tempo em horas até o alarme tocar:")
+alarme_str= int(alarme_str)
+print(type(alarme_str))
+print("Seu alarme irá tocar as", alarme_str%(24)+hora_str, "horas.")
